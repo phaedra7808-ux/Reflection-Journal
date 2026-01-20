@@ -1,0 +1,16 @@
+#1a-1 Virtualisation & Linux Setup
+Setup Instructions
+1.	Install VirtualBox or another virtualization tool.
+2.	Download an Ubuntu ISO (Lubuntu or regular Ubuntu).
+3.	Configure a new VM in VirtualBox with at least 2048 MB of memory.
+4.	Boot the VM using the downloaded ISO and install Ubuntu.
+5.	Configure network settings to allow bridged or NAT internet access.
+6.	Reboot and confirm successful setup.
+
+#Reflection Questions:
+Q1: What challenges did you encounter during the virtual machine setup? ANS: The main challenge was resource contention, as sharing CPU and RAM with my host PC caused slow installation speeds. I also had to re-familiarize myself with the VirtualBox interface after a few years of using different tools like VMware.
+Q2: What did you learn about virtualisation tools and their differences? ANS: I learned that Type 2 Hypervisors (like VirtualBox) run as applications on a host OS, whereas Type 1 Hypervisors run directly on hardware. Virtualization creates isolated environments, allowing for safe testing without affecting the main computer.
+Q3: How confident do you feel using Ubuntu after completing this lab? ANS: I feel moderately confident. This lab served as a helpful refresher for navigating the Linux filesystem and using basic terminal commands, though I recognize that more practice is needed to master the command line.
+Q4: In what ways can a virtualised Linux environment help in industry scenarios? ANS: It provides cost-efficiency and scalability, allowing businesses to run multiple servers on one physical machine. It also offers a "sandbox" for testing updates safely and enables rapid automation of server deployments.
+Q5: What would you do differently if setting up another VM? ANS: I would implement Post-Install Snapshots to create recovery points before making system changes. I would also try a "Server" version of Ubuntu (no GUI) to reduce memory usage and better simulate a professional cloud environment. 
+
