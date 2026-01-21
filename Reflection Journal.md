@@ -51,3 +51,4 @@ I  used Gemini to help with my sentence structure so I can present a well writte
 
 # 12. Appendix (Add as needed)
 - GitHub repo file structure
+<img width="802" height="723" alt="image" src="https://github.com/user-attachments/assets/0e1aa44e-87d0-400f-9d64-24ca799bfa98" />
