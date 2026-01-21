@@ -6,15 +6,17 @@ Lab Setup and Tasks:
 - Record public IP address of the VM. Access in browser to confirm Apache page.
 - Register a domain (Namecheap, GoDaddy, Cloudflare, Route 53, etc).
 - Create an A record pointing your domain to the public IP of your server.
-
+<img width="1316" height="378" alt="image" src="https://github.com/user-attachments/assets/146d3502-b3a4-4169-8187-b182ae0d86fc" />
 
 - Wait for DNS propagation and test with browser, ping, and nslookup.
+<img width="672" height="172" alt="image" src="https://github.com/user-attachments/assets/ba49b823-a98b-48e2-94ac-61e767e0195e" />
 
 - Install Certbot: sudo apt install certbot python3-certbot-apache.
 <img width="937" height="665" alt="image" src="https://github.com/user-attachments/assets/2402db79-829e-470e-aa83-a3a8fc447dde" />
 
 
 - Run: sudo certbot --apache to generate and install the certificate.
+<img width="887" height="57" alt="image" src="https://github.com/user-attachments/assets/b93182fc-642b-40b9-bd59-2a22533593f0" />
 
 
 # Reflection Questions
