@@ -2,10 +2,10 @@
 Lab Setup and Execution:
 - Log in to AWS EC2 Console and create a new Ubuntu 20.04 instance (free tier eligible).
 - Name the security group 'ssh-and-web' and allow both SSH and HTTP traffic.
+<img width="667" height="182" alt="image" src="https://github.com/user-attachments/assets/b68023e8-ff50-4cd4-b82e-745f39a0d6f4" />
 
 - Download key pair and save safely. Use this for SSH login via terminal.
-
-- Connect to the VM using provided SSH command (ssh -i key.pem ubuntu@IP). • - Run sudo apt update and install Apache using sudo apt install apache2
+<img width="155" height="31" alt="image" src="https://github.com/user-attachments/assets/a7a14d47-9d70-4052-a98a-522c681c57f4" />
 
 - Access the server using its public IP in a browser (via HTTP)
 <img width="825" height="688" alt="image" src="https://github.com/user-attachments/assets/77a939f1-bd94-4a61-a03b-728a280cd9b0" />
